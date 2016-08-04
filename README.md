@@ -1,4 +1,5 @@
 # SayWhen
-Random selection (suggestion) of loadout for battlefield. This project is targeted for Battlefield 1, but will be developed using BF3 as a model.
+Say When is a small website for Battlefield 1 to generate a new random loadout for your soldier. All aspects like class, primary weapon and weapon accessories, side arms and equipment will be randomly selected by one click with the option to either change one of the items or requesting one item to be randomized again.
+Playing with different loadouts shall be challenging and fun, and doing so manually (one player skips through the items and the second play says when to stop after a few seconds) is kinda time-consuming.
 
-So basically this is a small website where you can generate a new random loadout whenever you feel the need for a new challenge. It is kinda fun to run around with unusuable combinations of primary weapon, attachments, side arms and gadgets.
+For the time of development and until Battlefield 1 is completed this project will use the weapons and equipment from Battlefield 3 to have some items and images to use. The layout and css bases on Twitter Bootstrap while the website and functionality will use HTML and JavaScript (with some frameworks). All data about classes, weapons and equipment are stored in JSON files.
