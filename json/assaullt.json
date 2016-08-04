@@ -15,7 +15,24 @@
         "m16a4": {"name": "M16A4", "image": "/images/assault/ass_m16a4.png"},
         "m416": {"name": "M416", "image": "/images/assault/ass_m416.png"},
         "scarl": {"name": "SCAR-L", "image": "/images/assault/ass_scarl.png"},
-        "aug": {"name": "AUG A3", "image": "/images/assault/ass_steyraug.png"}
+        "aug": {"name": "AUG A3", "image": "/images/assault/ass_steyraug.png"},
+        // general weapons
+        "870mcs": {"name": "870MCS", "image": "/images/general/gen_870mcs.png"},
+        "asval": {"name": "AS VAL", "image": "/images/general/gen_asval.png"},
+        "dao12": {"name": "DAO-12", "image": "/images/general/gen_dao12.png"},
+        "g36c": {"name": "G36C", "image": "/images/general/gen_g36c.png"},
+        "m1014": {"name": "M1014", "image": "/images/general/gen_m1014.png"},
+        "m5k": {"name": "M5K", "image": "/images/general/gen_m5k.png"},
+        "mk3a1": {"name": "MK3A1", "image": "/images/general/gen_mk3a1.png"},
+        "mp7": {"name": "MP7", "image": "/images/general/gen_mp7.png"},
+        "p90": {"name": "P90", "image": "/images/general/gen_p90.png"},
+        "pdwr": {"name": "PDW-R", "image": "/images/general/gen_pdwr.png"},
+        "pp19": {"name": "PP-19", "image": "/images/general/gen_pp19.png"},
+        "pp2000": {"name": "PP-2000", "image": "/images/general/gen_pp2000.png"},
+        "saiga12k": {"name": "SAIGA 12K", "image": "/images/general/gen_saiga12k.png"},
+        "spas12": {"name": "SPAS-12", "image": "/images/general/gen_spas12.png"},
+        "ump": {"name": "UMP-45", "image": "/images/general/gen_ump.png"},
+        "usas12": {"name": "USAS-12", "image": "/images/general/gen_usas12.png"}
     },
     "sidearm":
     {
