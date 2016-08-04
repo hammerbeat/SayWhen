@@ -1,5 +1,5 @@
 {
-    "klasse": "assault",
+    "klasse": "ASSAULT",
     "icon": "/images/assault.png",
     "primary":
     {
@@ -7,7 +7,7 @@
         "ak74m": {"name": "AK-74M", "image": "/images/assault/ass_ak74m.png"},
         "an94": {"name": "AN-94", "image": "/images/assault/ass_an94.png"},
         "f2000": {"name": "F2000", "image": "/images/assault/ass_f2000.png"},
-        "famas": {"name": "Famas", "image": "/images/assault/ass_famas.png"},
+        "famas": {"name": "FAMAS", "image": "/images/assault/ass_famas.png"},
         "g3": {"name": "G3A3", "image": "/images/assault/ass_g3.png"},
         "kh2002": {"name": "KH2002", "image": "/images/assault/ass_kh2002.png"},
         "l85a2": {"name": "L85A2", "image": "/images/assault/ass_l85a2.png"},
@@ -19,42 +19,42 @@
     },
     "sidearm":
     {
-        "44mag": {"name": ".44 Magnum", "image": "/images/sidearms/gen_44magnum.png"},
-        "44scoped": {"name": ".44 Scoped", "image": "/images/sidearms/gen_44scoped.png"},
+        "44mag": {"name": ".44 MAGNUM", "image": "/images/sidearms/gen_44magnum.png"},
+        "44scoped": {"name": ".44 SCOPED", "image": "/images/sidearms/gen_44scoped.png"},
         "93r": {"name": "93R", "image": "/images/sidearms/gen_93r.png"},
         "g17c": {"name": "G17C", "image": "/images/sidearms/gen_g17c.png"},
-        "g17cs": {"name": "G17C Supp.", "image": "/images/sidearms/gen_g17csupp.png"},
+        "g17cs": {"name": "G17C SUPP.", "image": "/images/sidearms/gen_g17csupp.png"},
         "g18": {"name": "G18", "image": "/images/sidearms/gen_g18.png"},
-        "g18s": {"name": "G18 Supp.", "image": "/images/sidearms/gen_g18supp.png"},
+        "g18s": {"name": "G18 SUPP.", "image": "/images/sidearms/gen_g18supp.png"},
         "m1911": {"name": "M1911", "image": "/images/sidearms/gen_m1911.png"},
         "m1911stac": {"name": "M1911 STAC.", "image": "/images/sidearms/gen_m1911stac.png"},
-        "m1911supp": {"name": "M1911 Supp.", "image": "/images/sidearms/gen_m1911supp.png"},
-        "m1911tact": {"name": "M1911 Tact.", "image": "/images/sidearms/gen_m1911tact.png"},
+        "m1911supp": {"name": "M1911 SUPP.", "image": "/images/sidearms/gen_m1911supp.png"},
+        "m1911tact": {"name": "M1911 TACT.", "image": "/images/sidearms/gen_m1911tact.png"},
         "m9": {"name": "M9", "image": "/images/sidearms/gen_m9.png"},
-        "m9supp": {"name": "M9 Supp.", "image": "/images/sidearms/gen_m9supp.png"},
-        "m9tact": {"name": "M9 Tact.", "image": "/images/sidearms/gen_m9tact.png"},
-        "mp412rex": {"name": "MP412 Rex", "image": "/images/sidearms/gen_mp412rex.png"},
+        "m9supp": {"name": "M9 SUPP.", "image": "/images/sidearms/gen_m9supp.png"},
+        "m9tact": {"name": "M9 TACT.", "image": "/images/sidearms/gen_m9tact.png"},
+        "mp412rex": {"name": "MP412 REX", "image": "/images/sidearms/gen_mp412rex.png"},
         "mp443": {"name": "MP443", "image": "/images/sidearms/gen_mp443.png"},
-        "mp443supp": {"name": "MP443 Supp.", "image": "/images/sidearms/gen_mp443supp.png"},
-        "mp443tact": {"name": "MP443 Tact.", "image": "/images/sidearms/gen_mp443tact.png"}
+        "mp443supp": {"name": "MP443 SUPP.", "image": "/images/sidearms/gen_mp443supp.png"},
+        "mp443tact": {"name": "MP443 TACT.", "image": "/images/sidearms/gen_mp443tact.png"}
     },
     "gadgets1":
     {
         "m26": {"name": "M26", "image": "/images/assault_gadgets_1/ass_equ_m26mass.png"},
-        "m26 dart": {"name": "M26 Dart", "image": "/images/assault_gadgets_1/ass_equ_m26mass-dart.png"},
-        "m26frag": {"name": "M26 Frag", "image": "/images/assault_gadgets_1/ass_equ_m26mass-frag.png"},
-        "m26 slug": {"name": "M26 Slug", "image": "/images/assault_gadgets_1/ass_equ_m26mass-slug.png"},
-        "m320 buck": {"name": "M320 Buck", "image": "/images/assault_gadgets_1/ass_equ_m320-buck.png"},
+        "m26 dart": {"name": "M26 DART", "image": "/images/assault_gadgets_1/ass_equ_m26mass-dart.png"},
+        "m26frag": {"name": "M26 FRAG", "image": "/images/assault_gadgets_1/ass_equ_m26mass-frag.png"},
+        "m26 slug": {"name": "M26 SLUG", "image": "/images/assault_gadgets_1/ass_equ_m26mass-slug.png"},
+        "m320 buck": {"name": "M320 BUCK", "image": "/images/assault_gadgets_1/ass_equ_m320-buck.png"},
         "m320 lvg": {"name": "M320 LVG", "image": "/images/assault_gadgets_1/ass_equ_m320-lvg.png"},
-        "m320 smoke": {"name": "M320 Smoke", "image": "/images/assault_gadgets_1/ass_equ_m320-smoke.png"},
+        "m320 smoke": {"name": "M320 SMOKE", "image": "/images/assault_gadgets_1/ass_equ_m320-smoke.png"},
         "m320": {"name": "M320", "image": "/images/assault_gadgets_1/ass_equ_m320.png"},
-        "medkit": {"name": "Medic Kit", "image": "/images/assault_gadgets_1/ass_equ_medkit.png"},
-        "xbow": {"name": "Crossbow", "image": "/images/assault_gadgets_1/gen_xbow.png"},
-        "xbowscoped": {"name": "Crossbow Scoped", "image": "/images/assault_gadgets_1/gen_xbowscoped.png"}
+        "medkit": {"name": "MEDIC KIT", "image": "/images/assault_gadgets_1/ass_equ_medkit.png"},
+        "xbow": {"name": "CROSSBOW", "image": "/images/assault_gadgets_1/gen_xbow.png"},
+        "xbowscoped": {"name": "CROSSBOW SCOPED", "image": "/images/assault_gadgets_1/gen_xbowscoped.png"}
     },
     "gadgets2":
     {
-        "defi": {"name": "Defibrillator", "image": "/images/assault_gadgets_2/ass_equ_defib.png"},
+        "defi": {"name": "DEFIBRILLATOR", "image": "/images/assault_gadgets_2/ass_equ_defib.png"},
     },
     "specialisation":
     {
