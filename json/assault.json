@@ -16,7 +16,7 @@
         "m416": {"name": "M416", "image": "/images/assault/ass_m416.png"},
         "scarl": {"name": "SCAR-L", "image": "/images/assault/ass_scarl.png"},
         "aug": {"name": "AUG A3", "image": "/images/assault/ass_steyraug.png"},
-        // general weapons
+
         "870mcs": {"name": "870MCS", "image": "/images/general/gen_870mcs.png"},
         "asval": {"name": "AS VAL", "image": "/images/general/gen_asval.png"},
         "dao12": {"name": "DAO-12", "image": "/images/general/gen_dao12.png"},
@@ -71,7 +71,7 @@
     },
     "gadgets2":
     {
-        "defi": {"name": "DEFIBRILLATOR", "image": "/images/assault_gadgets_2/ass_equ_defib.png"},
+        "defi": {"name": "DEFIBRILLATOR", "image": "/images/assault_gadgets_2/ass_equ_defib.png"}
     },
     "specialisation":
     {
