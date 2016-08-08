@@ -3,36 +3,829 @@
     "icon": "/images/assault.png",
     "primary":
     {
-        "aek": {"name": "AEK-971", "image": "/images/assault/ass_aek971.png"},
-        "ak74m": {"name": "AK-74M", "image": "/images/assault/ass_ak74m.png"},
-        "an94": {"name": "AN-94", "image": "/images/assault/ass_an94.png"},
-        "f2000": {"name": "F2000", "image": "/images/assault/ass_f2000.png"},
-        "famas": {"name": "FAMAS", "image": "/images/assault/ass_famas.png"},
-        "g3": {"name": "G3A3", "image": "/images/assault/ass_g3.png"},
-        "kh2002": {"name": "KH2002", "image": "/images/assault/ass_kh2002.png"},
-        "l85a2": {"name": "L85A2", "image": "/images/assault/ass_l85a2.png"},
-        "m16a3": {"name": "M16A3", "image": "/images/assault/ass_m16a3.png"},
-        "m16a4": {"name": "M16A4", "image": "/images/assault/ass_m16a4.png"},
-        "m416": {"name": "M416", "image": "/images/assault/ass_m416.png"},
-        "scarl": {"name": "SCAR-L", "image": "/images/assault/ass_scarl.png"},
-        "aug": {"name": "AUG A3", "image": "/images/assault/ass_steyraug.png"},
+        "aek": {"name": "AEK-971", "image": "/images/assault/ass_aek971.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "underslung": {"name": "Underslung rail", "image": "/images/accessories_attachment_1/acc_at1_rails.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+               },
+        "ak74m": {"name": "AK-74M", "image": "/images/assault/ass_ak74m.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "underslung": {"name": "Underslung rail", "image": "/images/accessories_attachment_1/acc_at1_rails.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+               },
+        "an94": {"name": "AN-94", "image": "/images/assault/ass_an94.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "underslung": {"name": "Underslung rail", "image": "/images/accessories_attachment_1/acc_at1_rails.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+               },
+        "f2000": {"name": "F2000", "image": "/images/assault/ass_f2000.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+               },
+        "famas": {"name": "FAMAS", "image": "/images/assault/ass_famas.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+               },
+        "g3": {"name": "G3A3", "image": "/images/assault/ass_g3.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "underslung": {"name": "Underslung rail", "image": "/images/accessories_attachment_1/acc_at1_rails.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
+        "kh2002": {"name": "KH2002", "image": "/images/assault/ass_kh2002.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
+        "l85a2": {"name": "L85A2", "image": "/images/assault/ass_l85a2.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
+        "m16a3": {"name": "M16A3", "image": "/images/assault/ass_m16a3.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
+        "m16a4": {"name": "M16A4", "image": "/images/assault/ass_m16a4.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
+        "m416": {"name": "M416", "image": "/images/assault/ass_m416.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
+        "scarl": {"name": "SCAR-L", "image": "/images/assault/ass_scarl.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
+        "aug": {"name": "AUG A3", "image": "/images/assault/ass_steyraug.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"}
+               }
+                , "attachment2":
+                {
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"}
+                }
+              },
 
-        "870mcs": {"name": "870MCS", "image": "/images/general/gen_870mcs.png"},
-        "asval": {"name": "AS VAL", "image": "/images/general/gen_asval.png"},
-        "dao12": {"name": "DAO-12", "image": "/images/general/gen_dao12.png"},
-        "g36c": {"name": "G36C", "image": "/images/general/gen_g36c.png"},
-        "m1014": {"name": "M1014", "image": "/images/general/gen_m1014.png"},
-        "m5k": {"name": "M5K", "image": "/images/general/gen_m5k.png"},
-        "mk3a1": {"name": "MK3A1", "image": "/images/general/gen_mk3a1.png"},
-        "mp7": {"name": "MP7", "image": "/images/general/gen_mp7.png"},
-        "p90": {"name": "P90", "image": "/images/general/gen_p90.png"},
-        "pdwr": {"name": "PDW-R", "image": "/images/general/gen_pdwr.png"},
-        "pp19": {"name": "PP-19", "image": "/images/general/gen_pp19.png"},
-        "pp2000": {"name": "PP-2000", "image": "/images/general/gen_pp2000.png"},
-        "saiga12k": {"name": "SAIGA 12K", "image": "/images/general/gen_saiga12k.png"},
-        "spas12": {"name": "SPAS-12", "image": "/images/general/gen_spas12.png"},
-        "ump": {"name": "UMP-45", "image": "/images/general/gen_ump.png"},
-        "usas12": {"name": "USAS-12", "image": "/images/general/gen_usas12.png"}
+        "870mcs": {"name": "870MCS", "image": "/images/general/gen_870mcs.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+               }
+                , "attachment2":
+                {
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }
+              },
+        "asval": {"name": "AS VAL", "image": "/images/general/gen_asval.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"}
+               }
+                , "attachment2":
+                {
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"}
+                }
+              },
+        "dao12": {"name": "DAO-12", "image": "/images/general/gen_dao12.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+               }
+                , "attachment2":
+                {
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }
+              },
+        "m1014": {"name": "M1014", "image": "/images/general/gen_m1014.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+               }
+                , "attachment2":
+                {
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }
+              },
+        "m5k": {"name": "M5K", "image": "/images/general/gen_m5k.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"}
+               }
+                , "attachment2":
+                {
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+                }
+              },
+        "mk3a1": {"name": "MK3A1", "image": "/images/general/gen_mk3a1.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+               }
+                , "attachment2":
+                {
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }
+              },
+        "mp7": {"name": "MP7", "image": "/images/general/gen_mp7.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"}
+               }
+                , "attachment2":
+                {
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+                }
+              },
+        "p90": {"name": "P90", "image": "/images/general/gen_p90.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"}
+               }
+                , "attachment2":
+                {
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"}
+                }
+              },
+        "pdwr": {"name": "PDW-R", "image": "/images/general/gen_pdwr.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"}
+               }
+                , "attachment2":
+                {
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+                }
+              },
+        "pp19": {"name": "PP-19", "image": "/images/general/gen_pp19.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"}
+               }
+                , "attachment2":
+                {
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"}
+                }
+              },
+        "pp2000": {"name": "PP-2000", "image": "/images/general/gen_pp2000.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"}
+               }
+                , "attachment2":
+                {
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+                }
+              },
+        "saiga12k": {"name": "SAIGA 12K", "image": "/images/general/gen_saiga12k.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+               }
+                , "attachment2":
+                {
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }
+              },
+        "spas12": {"name": "SPAS-12", "image": "/images/general/gen_spas12.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+               }
+                , "attachment2":
+                {
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }
+              },
+        "ump": {"name": "UMP-45", "image": "/images/general/gen_ump.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"}
+               }
+                , "attachment2":
+                {
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"}
+                }
+              },
+        "usas12": {"name": "USAS-12", "image": "/images/general/gen_usas12.png", "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"}
+               }
+                , "attachment2":
+                {
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }
+              }
     },
     "sidearm":
     {

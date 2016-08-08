@@ -1,0 +1,40 @@
+, "scope":
+                {
+                   "acog": {"name": "ACOG (4x)", "image": "/images/accessories_scope/acc_sco_acog-4x.png"},
+                   "ballistic": {"name": "Ballistic (12x)", "image": "/images/accessories_scope/acc_sco_ballistic-12x.png"},
+                   "holo": {"name": "Holographic (HOLO)", "image": "/images/accessories_scope/acc_sco_eotech-holo.png"},
+                   "irnv": {"name": "IRNV (IR 1x)", "image": "/images/accessories_scope/acc_sco_irnv-1x.png"},
+                   "ironsights": {"name": "Iron Sights", "image": "/images/accessories_scope/acc_sco_ironsights.png"},
+                   "kobra": {"name": "KOBRA (RDS)", "image": "/images/accessories_scope/acc_sco_kobra-rds.png"},
+                   "M145": {"name": "M145 (3.4x)", "image": "/images/accessories_scope/acc_sco_m145-3.4x.png"},
+                   "pka": {"name": "PK-A (3.4x)", "image": "/images/accessories_scope/acc_sco_pka-3.4x.png"},
+                   "pkas": {"name": "PKA-S (HOLO)", "image": "/images/accessories_scope/acc_sco_pkas-holo.png"},
+                   "pks": {"name": "PKS-07 (7x)", "image": "/images/accessories_scope/acc_sco_pks07-7x.png"},
+                   "pso": {"name": "PSO-1 (4x)", "image": "/images/accessories_scope/acc_sco_pso1-4x.png"},
+                   "reflex": {"name": "Reflex (RDS)", "image": "/images/accessories_scope/acc_sco_reflex-rds.png"},
+                   "rifle-6x": {"name": "Rifle Scope (6x)", "image": "/images/accessories_scope/acc_sco_riflescope-6x.png"},
+                   "rifle-8x": {"name": "Rifle Scope (8x)", "image": "/images/accessories_scope/acc_sco_riflescope-8x.png"}
+               }
+                , "attachment1":
+                {
+                   "noprimary": {"name": "No primary", "image": "/images/accessories_attachment_1/acc_at1_noprimary.png"},
+                   "underslung": {"name": "Underslung rail", "image": "/images/accessories_attachment_1/acc_at1_rails.png"},
+                   "bipod": {"name": "Bipod", "image": "/images/accessories_attachment_1/acc_at1_bipod.png"},
+                   "foregrip": {"name": "Foregrip", "image": "/images/accessories_attachment_1/acc_at1_foregrip.png"},
+                   "bolt": {"name": "Straight Pull Bolt", "image": "/images/accessories_attachment_1/acc_at1_straightbolt.png"}
+               }
+                , "attachment2":
+                {
+                   "extmag": {"name": "", "image": "/images/accessories_attachment_2/acc_at2_ext_mag01.png"},
+                   "flashlight": {"name": "Tactical Light", "image": "/images/accessories_attachment_2/acc_at2_flashlight.png"},
+                   "flashsupp": {"name": "Flash Supp.", "image": "/images/accessories_attachment_2/acc_at2_flashsuppressor.png"},
+                   "barrel": {"name": "Heavy Barrel", "image": "/images/accessories_attachment_2/acc_at2_heavybarrel.png"},
+                   "suppressor": {"name": "Suppressor", "image": "/images/accessories_attachment_2/acc_at2_soundsuppressor.png"},
+                   "laser": {"name": "Laser Sight", "image": "/images/accessories_attachment_2/acc_at2_targetpointer.png"},
+                   "nosec": {"name": "No Secondary", "image": "/images/accessories_attachment_2/acc_at2_nosecondary.png"},
+
+                   "buckshot": {"name": "12G Buckshot", "image": "/images/accessories_attachment_2/acc_at2_buckshot.png"},
+                   "slug": {"name": "12G Slug", "image": "/images/accessories_attachment_2/acc_at2_slug.png"},
+                   "frag": {"name": "12G Frag", "image": "/images/accessories_attachment_2/acc_at2_frag.png"},
+                   "flechette": {"name": "12G Flechette", "image": "/images/accessories_attachment_2/acc_at2_flechette.png"}
+                }

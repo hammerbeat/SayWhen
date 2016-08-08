@@ -24,11 +24,6 @@ $(document).ready(function () {
             $(".carousel-inner").append($('<div class="item"><img src="' + item.image + '" style="max-width:147px"><h4>' + item.name + '</h4></div></div>'));
         }
         console.log($(".carousel-inner"));
-
-        //set the timer
-        //setTimeout(function(){
-        //showCarousel(arr, index+1);
-        //}, 500);
     }
     $('.carousel').carousel({interval: 2500});
 });
