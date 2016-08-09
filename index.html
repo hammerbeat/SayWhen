@@ -1,126 +1,177 @@
 <html>
-    <head>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
-        <link rel="stylesheet" href="/css/carousel.css">
-        <style>
-            body {font-family: 'Permanent Marker', cursive;}
-            h1 {font-family: 'Permanent Marker', cursive; font-size: 10em; color: #555555}
-            h3 {font-family: 'Permanent Marker', cursive; color: #555555}
-            h4 {font-family: 'Permanent Marker', cursive; color: #555555}
-            .carousel-control.left {background-image: none; color: #555555}
-            .carousel-control.right {background-image: none; color: #555555}
-    </style>
-    </head>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/customs.css">
+  </head>
 
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                <div class="page-header">
-                    <h1 align="center">Say when...</h1>
-                </div>
-            </div>
-            </div>
-            
-            <div class="row">
-                <div class="bs-component">
-                <div class="jumbotron">
-                    <h1><img src="images/assault.png" height="40px"> Assault</h1>
-                    <div style="display: flex; height: 470px; width: 100%; align-content: space-between">
-                        <div style="flex: 2; margin: 10px">
-                            <div class="panel panel-info" style="height: 450px">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Primary weapon</h3>
-                                </div>
-                                <div class="panel-body" align="center">
-                                    <div id="myCarousel" class="carousel slide">
-                                        <!-- Carousel items -->
-                                        <div class="carousel-inner"></div>
-                                        <!-- Carousel nav -->
-                                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                                    </div>
-                                </div>
-                                <div class="panel-body">
-                                    <h3>Accessories</h3>
-                                </div>
-                                <div class="panel-body" align="center">
-                                    <div class="row">
-                                    <div class="col-lg-4">
-                                        <img src="images/accessories_scope/acc_sco_acog-4x.png">
-                                        <p>ACOG 4x</p>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <img src="images/accessories_attachment_1/acc_at1_foregrip.png">
-                                        <p>Foregrip</p>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <img src="images/accessories_attachment_2/acc_at2_ext_mag01.png">
-                                        <p>Ext. Mag.</p>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                        </div>
-                        <div style="display: flex; flex: 1; flex-direction: column; height: 100%">
-                        <div style="flex: 1; margin: 10px">
-                            <div class="panel panel-info">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Side arm</h3>
-                                    </div>
-                                    <div class="panel-body" align="center">
-                                        <img src="images/sidearms/gen_44magnum.png">
-                                        <p>.44 Magnum</p>
-                                    </div>
-                                </div>
-                        </div>
-                        <div style="flex: 1; margin: 10px">
-                            <div class="panel panel-info">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Specialization</h3>
-                                    </div>
-                                    <div class="panel-body" align="center">
-                                        <img src="images/specialization/spe_ammo.png">
-                                        <p>Sqd. Ammo</p>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                        <div style="display: flex; flex: 1; flex-direction: column ">
-                            <div style="flex: 1; margin: 10px">
-                            <div class="panel panel-info">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Gadget 1</h3>
-                                </div>
-                                <div class="panel-body" align="center">
-                                    <img src="images/assault_gadgets_1/ass_equ_m26mass-dart.png">
-                                    <p>M26 Mass Dart</p>
-                                </div>
-                            </div>
-                        </div>
-                                <div style="flex: 1; margin: 10px">
-                                <div class="panel panel-info">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Gadget 2</h3>
-                                </div>
-                                <div class="panel-body" align="center">
-                                    <img src="images/assault_gadgets_2/ass_equ_defib.png">
-                                    <p>Defibrillator</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <div class="page-header">
+            <h1 align="center">Say when...</h1>
         </div>
-    </body>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="bs-component">
+          <div class="jumbotron">
+            <div>
+              <h1><img src="images/assault.png" height="40px"> Assault</h1>
+              <div id="classCarousel" class="carousel slide">
+                <!-- Carousel items -->
+                <div class="carousel-inner"></div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left" href="#classCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#classCarousel" data-slide="next">&rsaquo;</a>
+              </div>
+            </div>
+              <div style="display: flex; height: 470px; width: 100%; align-content: space-between">
+                <div style="flex: 2; margin: 10px">
+                  <div class="panel panel-info" style="height: 450px">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Primary weapon</h3>
+                    </div>
+                    <div class="panel-body" align="center">
+                      <div id="myCarousel" class="carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner"></div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                      </div>
+                    </div>
+                    <div class="panel-body">
+                      <h3>Accessories</h3>
+                    </div>
+                    <div class="panel-body" align="center">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <img src="images/accessories_scope/acc_sco_acog-4x.png">
+                          <p>ACOG 4x</p>
+                          <div id="scopeCarousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner"></div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#scopeCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#scopeCarousel" data-slide="next">&rsaquo;</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <img src="images/accessories_attachment_1/acc_at1_foregrip.png">
+                          <p>Foregrip</p>
+                          <div id="at1Carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner"></div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#at1Carousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#at1Carousel" data-slide="next">&rsaquo;</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <img src="images/accessories_attachment_2/acc_at2_ext_mag01.png">
+                          <p>Ext. Mag.</p>
+                          <div id="at2Carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner"></div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#at2Carousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#at2Carousel" data-slide="next">&rsaquo;</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="display: flex; flex: 1; flex-direction: column; height: 100%">
+                  <div style="flex: 1; margin: 10px">
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Side arm</h3>
+                      </div>
+                      <div class="panel-body" align="center">
+                        <img src="images/sidearms/gen_44magnum.png">
+                        <p>.44 Magnum</p>
+                        <div id="secondaryCarousel" class="carousel slide">
+                          <!-- Carousel items -->
+                          <div class="carousel-inner"></div>
+                          <!-- Carousel nav -->
+                          <a class="carousel-control left" href="#secondaryCarousel" data-slide="prev">&lsaquo;</a>
+                          <a class="carousel-control right" href="#secondaryCarousel" data-slide="next">&rsaquo;</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="flex: 1; margin: 10px">
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Specialization</h3>
+                      </div>
+                      <div class="panel-body" align="center">
+                        <img src="images/specialization/spe_ammo.png">
+                        <p>Sqd. Ammo</p>
+                        <div id="specCarousel" class="carousel slide">
+                          <!-- Carousel items -->
+                          <div class="carousel-inner"></div>
+                          <!-- Carousel nav -->
+                          <a class="carousel-control left" href="#specCarousel" data-slide="prev">&lsaquo;</a>
+                          <a class="carousel-control right" href="#specCarousel" data-slide="next">&rsaquo;</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="display: flex; flex: 1; flex-direction: column ">
+                  <div style="flex: 1; margin: 10px">
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Gadget 1</h3>
+                      </div>
+                      <div class="panel-body" align="center">
+                          <img src="images/assault_gadgets_1/ass_equ_m26mass-dart.png">
+                          <p>M26 Mass Dart</p>
+                        <div id="gad1Carousel" class="carousel slide">
+                          <!-- Carousel items -->
+                          <div class="carousel-inner"></div>
+                          <!-- Carousel nav -->
+                          <a class="carousel-control left" href="#gad1Carousel" data-slide="prev">&lsaquo;</a>
+                          <a class="carousel-control right" href="#gad1Carousel" data-slide="next">&rsaquo;</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="flex: 1; margin: 10px">
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Gadget 2</h3>
+                      </div>
+                      <div class="panel-body" align="center">
+                        <img src="images/assault_gadgets_2/ass_equ_defib.png">
+                        <p>Defibrillator</p>
+                        <div id="gad2Carousel" class="carousel slide">
+                          <!-- Carousel items -->
+                          <div class="carousel-inner"></div>
+                          <!-- Carousel nav -->
+                          <a class="carousel-control left" href="#gad2Carousel" data-slide="prev">&lsaquo;</a>
+                          <a class="carousel-control right" href="#gad2Carousel" data-slide="next">&rsaquo;</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
     
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="/js/main.js"></script>
 </html>
