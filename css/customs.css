@@ -1,0 +1,40 @@
+body
+{
+  font-family: 'Permanent Marker', cursive;
+}
+
+h1
+{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 10em;
+  color: #555555
+}
+
+h3
+{
+  font-family: 'Permanent Marker', cursive;
+  color: #555555
+}
+
+h4
+{
+  font-family: 'Permanent Marker', cursive;
+  color: #555555
+}
+
+.carousel-control.left
+{
+  background-image: none;
+  color: #555555
+}
+
+.carousel-control.right
+{
+  background-image: none;
+  color: #555555
+}
+
+.carousel-control
+{
+  font-size: 30px
+}
