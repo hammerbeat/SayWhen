@@ -25,5 +25,5 @@ $(document).ready(function () {
         }
         console.log($(".carousel-inner"));
     }
-    $('.carousel').carousel({interval: 2500});
+    //$('.carousel').carousel({interval: 2500});
 });
