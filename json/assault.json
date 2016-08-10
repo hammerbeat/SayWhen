@@ -1,5 +1,5 @@
 {
-    "klasse": "ASSAULT",
+    "soldier": "ASSAULT",
     "icon": "/images/assault.png",
     "primary":
     {
@@ -866,7 +866,7 @@
     {
         "defi": {"name": "DEFIBRILLATOR", "image": "/images/assault_gadgets_2/ass_equ_defib.png"}
     },
-    "specialisation":
+    "specialization":
     {
         "ammo": {"name": "SQD AMMO", "image": "/images/specialization/spe_ammo.png"},
         "covr": {"name": "SQD COVR", "image": "/images/specialization/spe_covr.png"},
