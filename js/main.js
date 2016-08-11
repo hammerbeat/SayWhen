@@ -40,6 +40,18 @@ $(document).ready(function () {
       var specilizationArray = specilizations.map(function (aKey) { return data.specialization[aKey]; });
       var posSpec = getRandomArrayNumber(specilizationArray);
 
+      var loadoutArray = [
+        //{"listName": },
+        {"listName": weaponArray, "name": "#myCarousel .carousel-inner", "position": posPrimary},
+        {"listName": scopeArray, "name": "#scopeCarousel .carousel-inner", "position": posScope},
+        {"listName": at1Array, "name": "#at1Carousel .carousel-inner", "position": posAt1},
+        {"listName": at2Array, "name": "#at2Carousel .carousel-inner", "position": posAt2},
+        {"listName": sidearmArray, "name": "#secondaryCarousel .carousel-inner", "position": posSidearm},
+        {"listName": gadgets1Array, "name": "#gad1Carousel .carousel-inner", "position": posGad1},
+        {"listName": gadgets2Array, "name": "#gad2Carousel .carousel-inner", "position": posGad2},
+        {"listName": specilizationArray, "name": "#specCarousel .carousel-inner", "position": posSpec}
+      ];
+
       var loadout = {
         "soldier": soldierClass,
         "classIcon": soldierIcon,
@@ -64,26 +76,41 @@ $(document).ready(function () {
 
 
       //data is the array you expected.
-      var index = 0;
-      weaponArray.forEach(function () {
-          showCarousel(weaponArray, index);
+      loadoutArray.forEach(function (aArray) {
+        var index = 0;
+        aArray.listName.forEach(function () {
+          showCarousel(aArray.listName, index, aArray.name, aArray.position);
           index += 1;
       });
+
+      });
+//      var index = 0;
+//      weaponArray.forEach(function () {
+//          showCarousel(weaponArray, index);
+//          index += 1;
+//      });
       //showCarousel(weaponArray, 0);
     })
     .fail(function (error, a) {
       console.log("fail" + a);
     });
 
-  function showCarousel(arr, index) {
+  function showCarousel(arr, index, identifier, position) {
     if (index >= arr.length) { index = 0; }
     var item = arr[index];
-    if (index === 0) {
-      $(".carousel-inner").append($('<div class="item active"><img src="' + item.image + '" style="max-width:147px"><h4>' + item.name + '</h4></div></div>'));
+    if (index === position) {
+      $(identifier).append($('<div class="item active"><img src="' + item.image + '" style="max-width:147px; height: 88px"><h4>' + item.name + '</h4></div></div>'));
     } else {
-      $(".carousel-inner").append($('<div class="item"><img src="' + item.image + '" style="max-width:147px"><h4>' + item.name + '</h4></div></div>'));
+      $(identifier).append($('<div class="item"><img src="' + item.image + '" style="max-width:147px; height: 88px"><h4>' + item.name + '</h4></div></div>'));
     }
 //    console.log($(".carousel-inner"));
   }
   //$('.carousel').carousel({interval: 2500});
+  $(function() {
+    $('.carousel').each(function(){
+        $(this).carousel({
+            interval: false
+        });
+    });
+});
 });
