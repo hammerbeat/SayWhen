@@ -100,9 +100,9 @@ $(document).ready(function () {
     var item = arr[index];
     if (index === position) {
       $(identifier).append($('<div class="item active"><img src="' + item.image + '" style="max-width:147px; height: 88px"><h4>' + item.name + '</h4></div></div>'));
-    } else {
+    } /*else {
       $(identifier).append($('<div class="item"><img src="' + item.image + '" style="max-width:147px; height: 88px"><h4>' + item.name + '</h4></div></div>'));
-    }
+    }*/
 //    console.log($(".carousel-inner"));
   }
   //$('.carousel').carousel({interval: 2500});
