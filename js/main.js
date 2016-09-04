@@ -4,9 +4,9 @@ $(document).ready(function () {
       var soldierClass = data.soldier;
       var soldierIcon = data.icon;
 
-      function getRandomArrayNumber(aArray){
-          return Math.floor(Math.random()*(aArray).length);
-        }
+      function getRandomArrayNumber(aArray) {
+        return Math.floor(Math.random() * (aArray).length);
+      }
 
       var primaryWeapon = Object.keys(data.primary);
       var weaponArray = primaryWeapon.map(function (aKey) { return data.primary[aKey]; });
@@ -41,7 +41,6 @@ $(document).ready(function () {
       var posSpec = getRandomArrayNumber(specilizationArray);
 
       var loadoutArray = [
-        //{"listName": },
         {"listName": weaponArray, "name": "#myCarousel .carousel-inner", "position": posPrimary},
         {"listName": scopeArray, "name": "#scopeCarousel .carousel-inner", "position": posScope},
         {"listName": at1Array, "name": "#at1Carousel .carousel-inner", "position": posAt1},
@@ -81,18 +80,9 @@ $(document).ready(function () {
         aArray.listName.forEach(function () {
           showCarousel(aArray.listName, index, aArray.name, aArray.position);
           index += 1;
-      });
+        });
 
       });
-//      var index = 0;
-//      weaponArray.forEach(function () {
-//          showCarousel(weaponArray, index);
-//          index += 1;
-//      });
-      //showCarousel(weaponArray, 0);
-    })
-    .fail(function (error, a) {
-      console.log("fail" + a);
     });
 
   function showCarousel(arr, index, identifier, position) {
@@ -100,17 +90,17 @@ $(document).ready(function () {
     var item = arr[index];
     if (index === position) {
       $(identifier).append($('<div class="item active"><img src="' + item.image + '" style="max-width:147px; height: 88px"><h4>' + item.name + '</h4></div></div>'));
-    } else {
+    } /*else {
+      // not selected items
       $(identifier).append($('<div class="item"><img src="' + item.image + '" style="max-width:147px; height: 88px"><h4>' + item.name + '</h4></div></div>'));
-    }
-//    console.log($(".carousel-inner"));
+    }*/
   }
   //$('.carousel').carousel({interval: 2500});
-  $(function() {
-    $('.carousel').each(function(){
-        $(this).carousel({
-            interval: false
-        });
+  $(function () {
+    $('.carousel').each(function () {
+      $(this).carousel({
+        interval: false
+      });
     });
-});
+  });
 });
